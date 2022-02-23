@@ -1,13 +1,10 @@
 ﻿using System;
 
-namespace BasicCoreProgram;
-
+namespace QuotientReminder;
 class Program
-
 {
     public static void Main(string[] args)
-
     {
-        VowelandConstnt.VowelToConsonant();
+        QuioRemind.FindingQuiotRemind();
     }
 }
