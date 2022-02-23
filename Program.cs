@@ -1,18 +1,17 @@
 ﻿using System;
 
-namespace Harmonic_term;
+namespace PRimeFactorOfANumber;
 
 class Program
 {
-
     static void Main(string[] args)
-
 
     {
 
-        Harmonic_term.Harmonic();
 
+
+        PrimeFactor.PrimeF();
     }
-}
 
+}
 
