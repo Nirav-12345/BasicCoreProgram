@@ -1,13 +1,31 @@
 ﻿using System;
 
-namespace SWaping_of_Two_Numbers;
-
-class Program
-
+namespace EvenOdd
 {
-    public static void Main(string[] args)
-
+    class Program
     {
-        Swaptwonum.Swap();
+        public static void Main(string[] args)
+        {
+            double n = Convert.ToInt32(Console.ReadLine());
+
+            if (n % 2 == 0)
+
+            {
+
+                Console.WriteLine("Even");
+
+                
+
+            }
+
+            else
+            {
+                Console.WriteLine("odd");
+            }
+
+        }
+
+
     }
 }
+
