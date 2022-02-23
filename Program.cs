@@ -1,20 +1,18 @@
 ﻿using System;
-namespace FlipsCoin
+
+namespace Harmonic_term;
+
+class Program
 {
-    class Program
+
+    static void Main(string[] args)
+
+
     {
-        public static void Main(string[] args)
-        {
 
+        Harmonic_term.Harmonic();
 
-            Console.WriteLine("Please enter the flips");
-
-
-            int flips1 = Convert.ToInt32(Console.ReadLine());
-           double val= CoinFlepes.coin1(flips1,2);
-            Console.WriteLine("head percentage " + val);
-
-        }
     }
-
 }
+
+
