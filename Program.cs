@@ -1,17 +1,13 @@
 ﻿using System;
 
-namespace PRimeFactorOfANumber;
+namespace SWaping_of_Two_Numbers;
 
 class Program
+
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
 
     {
-
-
-
-        PrimeFactor.PrimeF();
+        Swaptwonum.Swap();
     }
-
 }
-
